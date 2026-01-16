@@ -4,7 +4,7 @@
     {
       "id": "unit-1",
       "title": "Present Simple vs Present Continuous",
-      "summary": "Use present simple for habits and facts; present continuous for actions happening now.",
+      "summary": "Present simple is used for habits and facts; present continuous for actions happening now.",
       "examples": [
         {"text": "I work in Clementi.", "note": "Habit/fact"},
         {"text": "I am working now.", "note": "Action happening now"}
@@ -22,6 +22,95 @@
         {"front": "Present simple form", "back": "Subject + base verb (he/she/it adds -s): She works."},
         {"front": "Present continuous form", "back": "am/is/are + verb-ing: They are studying."}
       ]
+    },
+    {
+      "id": "unit-2",
+      "title": "Past Simple",
+      "summary": "Past simple is used for completed actions in the past.",
+      "examples": [
+        {"text": "I visited London last year.", "note": "Completed action"},
+        {"text": "She worked at the bank in 2010.", "note": "Past fact"}
+      ],
+      "rules": [
+        "Past simple: subject + past verb (regular verbs add -ed).",
+        "Irregular verbs have unique past forms (go → went)."
+      ],
+      "quiz": [
+        {"type": "mcq", "q": "They ___ (play) football yesterday.", "options": ["play", "played", "playing"], "answer": 1},
+        {"type": "fill", "q": "She ___ (go) to school last week.", "answer": "went"},
+        {"type": "error", "q": "He eat dinner yesterday.", "explain": "Use past form: He ate dinner yesterday."}
+      ],
+      "flashcards": [
+        {"front": "Past simple form", "back": "Subject + past verb: I worked."},
+        {"front": "Irregular verb example", "back": "Go → went"}
+      ]
+    },
+    {
+      "id": "unit-3",
+      "title": "Present Perfect",
+      "summary": "Present perfect is used for experiences and actions that have relevance to now.",
+      "examples": [
+        {"text": "I have visited Japan.", "note": "Experience"},
+        {"text": "She has just finished her homework.", "note": "Recent action"}
+      ],
+      "rules": [
+        "Present perfect: have/has + past participle.",
+        "Use for experiences, changes, or actions with present relevance."
+      ],
+      "quiz": [
+        {"type": "mcq", "q": "They ___ (see) that movie before.", "options": ["saw", "have seen", "seen"], "answer": 1},
+        {"type": "fill", "q": "I ___ (finish) my work already.", "answer": "have finished"},
+        {"type": "error", "q": "She has went to school.", "explain": "Correct form: She has gone to school."}
+      ],
+      "flashcards": [
+        {"front": "Present perfect form", "back": "have/has + past participle: I have eaten."},
+        {"front": "Use case", "back": "Actions with present relevance or experiences."}
+      ]
+    },
+    {
+      "id": "unit-4",
+      "title": "Future Simple",
+      "summary": "Future simple is used for predictions, promises, and spontaneous decisions.",
+      "examples": [
+        {"text": "I will call you tomorrow.", "note": "Promise"},
+        {"text": "It will rain later.", "note": "Prediction"}
+      ],
+      "rules": [
+        "Future simple: will + base verb.",
+        "Use for decisions made at the moment of speaking."
+      ],
+      "quiz": [
+        {"type": "mcq", "q": "She ___ (help) you with that.", "options": ["will help", "helps", "help"], "answer": 0},
+        {"type": "fill", "q": "I ___ (visit) my parents next week.", "answer": "will visit"},
+        {"type": "error", "q": "He will goes to school.", "explain": "Correct form: He will go to school."}
+      ],
+      "flashcards": [
+        {"front": "Future simple form", "back": "will + base verb: I will work."},
+        {"front": "Use case", "back": "Predictions, promises, spontaneous decisions."}
+      ]
+    },
+    {
+      "id": "unit-5",
+      "title": "Present Continuous for Future",
+      "summary": "Present continuous can be used to talk about planned future events.",
+      "examples": [
+        {"text": "I am meeting my friend tomorrow.", "note": "Planned arrangement"},
+        {"text": "She is flying to Paris next week.", "note": "Scheduled plan"}
+      ],
+      "rules": [
+        "Present continuous: am/is/are + verb-ing.",
+        "Use for fixed arrangements in the near future."
+      ],
+      "quiz": [
+        {"type": "mcq", "q": "We ___ (have) dinner with them tonight.", "options": ["are having", "will have", "have"], "answer": 0},
+        {"type": "fill", "q": "She ___ (leave) for London tomorrow.", "answer": "is leaving"},
+        {"type": "error", "q": "I am go to the cinema tonight.", "explain": "Correct form: I am going to the cinema tonight."}
+      ],
+      "flashcards": [
+        {"front": "Present continuous for future", "back": "am/is/are + verb-ing: I am meeting them tomorrow."},
+        {"front": "Use case", "back": "Planned arrangements or schedules."}
+      ]
     }
   ]
 }
+
