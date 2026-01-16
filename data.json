@@ -1,27 +1,22 @@
 {
-  "book": "English Grammar in Use",
-  "units": [
-    {
-      "id": "unit-2",
-      "title": "Past Simple",
-      "summary": "Past simple is used for completed actions in the past.",
-      "examples": [
-        {"text": "I visited London last year.", "note": "Completed action"},
-        {"text": "She worked at the bank in 2010.", "note": "Past fact"}
-      ],
-      "rules": [
-        "Past simple: subject + past verb (regular verbs add -ed).",
-        "Irregular verbs have unique past forms (go → went)."
-      ],
-      "quiz": [
-        {"type": "mcq", "q": "They ___ (play) football yesterday.", "options": ["play", "played", "playing"], "answer": 1},
-        {"type": "fill", "q": "She ___ (go) to school last week.", "answer": "went"},
-        {"type": "error", "q": "He eat dinner yesterday.", "explain": "Use past form: He ate dinner yesterday."}
-      ],
-      "flashcards": [
-        {"front": "Past simple form", "back": "Subject + past verb: I worked."},
-        {"front": "Irregular verb example", "back": "Go → went"}
-      ]
-    }
+  "id": "unit-3",
+  "title": "Present Perfect",
+  "summary": "Present perfect is used for experiences and actions that have relevance to now.",
+  "examples": [
+    {"text": "I have visited Japan.", "note": "Experience"},
+    {"text": "She has just finished her homework.", "note": "Recent action"}
+  ],
+  "rules": [
+    "Present perfect: have/has + past participle.",
+    "Use for experiences, changes, or actions with present relevance."
+  ],
+  "quiz": [
+    {"type": "mcq", "q": "They ___ (see) that movie before.", "options": ["saw", "have seen", "seen"], "answer": 1},
+    {"type": "fill", "q": "I ___ (finish) my work already.", "answer": "have finished"},
+    {"type": "error", "q": "She has went to school.", "explain": "Correct form: She has gone to school."}
+  ],
+  "flashcards": [
+    {"front": "Present perfect form", "back": "have/has + past participle: I have eaten."},
+    {"front": "Use case", "back": "Actions with present relevance or experiences."}
   ]
 }
