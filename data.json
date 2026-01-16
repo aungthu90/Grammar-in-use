@@ -20,3 +20,25 @@
     {"front": "Use case", "back": "Actions with present relevance or experiences."}
   ]
 }
+{
+  "id": "unit-3",
+  "title": "Present Perfect",
+  "summary": "Present perfect is used for experiences and actions that have relevance to now.",
+  "examples": [
+    {"text": "I have visited Japan.", "note": "Experience"},
+    {"text": "She has just finished her homework.", "note": "Recent action"}
+  ],
+  "rules": [
+    "Present perfect: have/has + past participle.",
+    "Use for experiences, changes, or actions with present relevance."
+  ],
+  "quiz": [
+    {"type": "mcq", "q": "They ___ (see) that movie before.", "options": ["saw", "have seen", "seen"], "answer": 1},
+    {"type": "fill", "q": "I ___ (finish) my work already.", "answer": "have finished"},
+    {"type": "error", "q": "She has went to school.", "explain": "Correct form: She has gone to school."}
+  ],
+  "flashcards": [
+    {"front": "Present perfect form", "back": "have/has + past participle: I have eaten."},
+    {"front": "Use case", "back": "Actions with present relevance or experiences."}
+  ]
+}
