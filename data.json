@@ -2,28 +2,6 @@
   "book": "English Grammar in Use",
   "units": [
     {
-      "id": "unit-1",
-      "title": "Present Simple vs Present Continuous",
-      "summary": "Present simple is used for habits and facts; present continuous for actions happening now.",
-      "examples": [
-        {"text": "I work in Clementi.", "note": "Habit/fact"},
-        {"text": "I am working now.", "note": "Action happening now"}
-      ],
-      "rules": [
-        "Present simple: subject + base verb (he/she/it adds -s).",
-        "Present continuous: am/is/are + verb-ing."
-      ],
-      "quiz": [
-        {"type": "mcq", "q": "She ___ to work every day.", "options": ["is going", "goes", "going"], "answer": 1},
-        {"type": "fill", "q": "I ___ (study) English right now.", "answer": "am studying"},
-        {"type": "error", "q": "He go to office now.", "explain": "Use present continuous: He is going to the office now."}
-      ],
-      "flashcards": [
-        {"front": "Present simple form", "back": "Subject + base verb (he/she/it adds -s): She works."},
-        {"front": "Present continuous form", "back": "am/is/are + verb-ing: They are studying."}
-      ]
-    },
-    {
       "id": "unit-2",
       "title": "Past Simple",
       "summary": "Past simple is used for completed actions in the past.",
