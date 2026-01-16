@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>English from Your Book</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    body { font-family: system-ui, sans-serif; margin: 24px; line-height: 1.6; }
+    .card { border: 1px solid #ddd; border-radius: 8px; padding: 16px; margin-bottom: 16px; }
+    .btn { padding: 8px 12px; border: 1px solid #333; border-radius: 6px; cursor: pointer; background: #fff; }
+    .btn.primary { background: #333; color: #fff; }
+    .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+    .hidden { display: none; }
+    input, textarea { width: 100%; padding: 8px; }
+    ul { padding-left: 18px; }
+  </style>
+</head>
+<body>
+  <h1>English Learning — From Your Book</h1>
+
+  <div class="card">
+    <h2>Import PDF (optional)</h2>
+    <input type="file" id="pdfInput" accept="application/pdf" />
+    <p>If the PDF is large, use the manual input or JSON data below.</p>
+  </div>
+
+  <div class="card">
+    <h2>Manual topic input</h2>
+    <textarea id="topicText" rows="6" placeholder="Paste rules, examples, or a unit summary...&#10;Summary: Present Simple vs Present Continuous&#10;Rule: Present simple = subject + base verb (he/she/it adds -s)&#10;Rule: Present continuous = am/is/are + verb-ing&#10;Ex: I work in Clementi.&#10;Ex: I am working now."></textarea>
+    <button class="btn primary" id="generateLesson">Generate lesson</button>
+  </div>
+
+  <div class="card">
+    <h2>Load book units (JSON)</h2>
+    <button class="btn" id="loadData">Load data.json</button>
+    <select id="unitSelect"></select>
+    <button class="btn" id="loadUnit">Load selected unit</button>
+  </div>
+
+  <div id="lessonArea" class="card hidden">
+    <h2 id="lessonTitle">Lesson</h2>
+    <div id="lessonSummary"></div>
+    <div class="grid">
+      <div>
+        <h3>Examples</h3>
+        <ul id="examples"></ul>
+      </div>
+      <div>
+        <h3>Rules</h3>
+        <ul id="rules"></ul>
+      </div>
+    </div>
+    <h3>Quiz</h3>
+    <div id="quiz"></div>
+    <button class="btn" id="reviewFlashcards">Review flashcards</button>
+  </div>
+
+  <div id="flashcardArea" class="card hidden">
+    <h2>Flashcards</h2>
+    <div id="flashcard"></div>
+    <button class="btn" id="nextCard">Next</button>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
